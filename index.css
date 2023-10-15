@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/verveine');
+
 @font-face {
     font-family: Soleto;
     src: url("/fonts/Soleto-Regular.ttf");
@@ -16,13 +18,6 @@
     font-family: TitlingGothicFB;
     src: url("/fonts/TitlingGothicFB Cond Bold.otf");
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Verveine;
-    src: url("/fonts/VerveineRegular.TTF");
-    font-weight: normal;
     font-style: normal;
 }
 
@@ -98,7 +93,7 @@ footer > div.about-us {
 
 .waiting-for-you {
     font-size: 81px;
-    font-family: Verveine, serif;
+    font-family: 'Verveine', serif;
     color: rgb(78, 23, 27);
     font-style: italic;
     font-weight: lighter;
@@ -113,7 +108,7 @@ footer > div.about-us {
 
 .your-tour {
     font-size: 81px;
-    font-family: Verveine, serif;
+    font-family: 'Verveine', serif;
     color: rgb(30, 90, 124);
     font-style: italic;
     font-weight: lighter;
