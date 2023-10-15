@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Soleto;
+    src: url("assets/fonts/Soleto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Soleto;
+    src: url("assets/fonts/Soleto-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TitlingGothicFB;
+    src: url("assets/fonts/TitlingGothicFB Cond Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Verveine;
+    src: url("assets/fonts/VerveineRegular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-size: cover;
+    background: url("assets/images/background.png") no-repeat center;
+    font-family: Soleto, serif;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header {
+    background-image: url("assets/images/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 23px;
+    height: 665px;
+}
+
+main div.about-us {
+    background-image: url("assets/images/about-us-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+    display: flex;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 30px;
+    letter-spacing: -0.001em;
+    margin: 0;
+}
+
+.about-us h2 {
+    font-family: TitlingGothicFB, serif;
+    font-size: 64px;
+    margin: 0;
+}
+
+footer > div.about-us {
+    background: white;
+    height: 820px;
+}
+
+.the-mountains-are-waiting-for-you-wrapper {
+    width: 1288px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+}
+
+.the-mountains-are-waiting-for-you-wrapper > p {
+    margin-top: 42px;
+    margin-left: 8px;
+    font-size: 25px;
+    line-height: 1.22;
+    letter-spacing: -0.001em;
+    margin-bottom: 0;
+}
+
+.the-mountains-are-waiting-for-you-wrapper > h2 {
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-bottom: 51px;
+}
+
+.waiting-for-you {
+    font-size: 81px;
+    font-family: Verveine, serif;
+    color: rgb(78, 23, 27);
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.choose {
+    font-size: 64px;
+    font-family: TitlingGothicFB, serif;
+    letter-spacing: 0.001em;
+}
+
+.your-tour {
+    font-size: 81px;
+    font-family: Verveine, serif;
+    color: rgb(30, 90, 124);
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.choose-your-tour h2 {
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.the-mountains-are {
+    font-size: 64px;
+    font-family: TitlingGothicFB, serif;
+    letter-spacing: 0.001em;
+}
+
+.about-us-wrapper {
+    height: 287px;
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.2;
+    row-gap: 100px;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 43px;
+}
+
+.the-mountains-are-waiting-for-you {
+    height: 875px;
+}
+
+.about-us-article {
+    margin-top: 0;
+}
+
+.the-mountains-are-waiting-for-you .image-container {
+    height: 382px;
+    width: 700px;
+    border: white 28px solid;
+    margin-bottom: 0;
+}
+
+.tour-offers {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 77px;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 1335px;
+    width: 1147px;
+}
+
+.tour-offers > .image-container {
+    background: white;
+    width: 475px;
+    height: 630px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.tour-offers > .image-container > h3 {
+    font-weight: bold;
+}
+
+.tour-offers > .image-container > p {
+
+}
+
+.store .image-container {
+    width: 719px;
+    height: 495px;
+}
+
+.promotion-in-the-tent {
+    background: url("assets/images/promotion-in-the-tent.png");
+    width: inherit;
+    height: inherit;
+}
+
+.starter-package {
+    background: url("assets/images/starter-package.png");
+    width: inherit;
+    height: inherit;
+}
+
+.navigation-container {
+    padding-left: 78px;
+    padding-top: 86px;
+    height: 69px;
+    display: flex;
+}
+
+nav {
+    padding-left: 48px;
+    margin-top: -6px;
+    letter-spacing: 0.001em;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+li > a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.the-mountains-are-waiting-for-you > h2 {
+    margin-top: 108px;
+    margin-bottom: 0;
+    font-family: TitlingGothicFB, serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+.store {
+    /*height: 1644px;*/
+}
+
+.choose-your-tour {
+    /*height: 1947px;*/
+}
