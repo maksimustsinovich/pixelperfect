@@ -93,7 +93,7 @@ footer > div.about-us {
 
 .waiting-for-you {
     font-size: 81px;
-    font-family: 'Verveine', serif;
+    font-family: 'Verveine', sans-serif;
     color: rgb(78, 23, 27);
     font-style: italic;
     font-weight: lighter;
@@ -108,7 +108,7 @@ footer > div.about-us {
 
 .your-tour {
     font-size: 81px;
-    font-family: 'Verveine', serif;
+    font-family: 'Verveine', sans-serif;
     color: rgb(30, 90, 124);
     font-style: italic;
     font-weight: lighter;
