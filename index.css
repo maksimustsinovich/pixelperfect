@@ -1,27 +1,27 @@
 @font-face {
     font-family: Soleto;
-    src: url("assets/fonts/Soleto-Regular.ttf");
+    src: url("/assets/fonts/Soleto-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Soleto;
-    src: url("assets/fonts/Soleto-Bold.ttf");
+    src: url("/assets/fonts/Soleto-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: TitlingGothicFB;
-    src: url("assets/fonts/TitlingGothicFB Cond Bold.otf");
+    src: url("/assets/fonts/TitlingGothicFB Cond Bold.otf");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Verveine;
-    src: url("assets/fonts/VerveineRegular.TTF");
+    src: url("/assets/fonts/VerveineRegular.TTF");
     font-weight: normal;
     font-style: normal;
 }
