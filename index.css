@@ -43,6 +43,64 @@ header {
     height: 665px;
 }
 
+.slider-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-header > div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 897px;
+}
+
+.slider-header i {
+    padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+.slider-header button:last-child {
+    margin-left: -28px;
+}
+
+.slider-header i:hover {
+    color: #F4BF86;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.numbers p {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.numbers p:nth-child(3) {
+    padding-left: 5px;
+}
+
+.slider-header button {
+    border: none;
+    background: none;
+    height: 20px;
+    width: 16px;
+}
+
+ 
+.numbers .highlighted-number {
+    font-size: 114px;
+    padding-bottom: 25px;
+}
+
 main div.about-us {
     background-image: url("images/about-us-background.png");
     background-repeat: no-repeat;
@@ -67,10 +125,21 @@ main div.about-us {
     margin: 0;
 }
 
-footer > div.about-us {
-    background: white;
+footer > div {
     height: 820px;
 }
+
+.about-us-footer {
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    height: 84.8%;
+}
+ 
 
 .the-mountains-are-waiting-for-you-wrapper {
     width: 1288px;
@@ -79,7 +148,7 @@ footer > div.about-us {
     margin-top: 90px;
 }
 
-.the-mountains-are-waiting-for-you-wrapper > p {
+.the-mountains-are-waiting-for-you-wrapper  p {
     margin-top: 42px;
     margin-left: 8px;
     font-size: 25px;
@@ -87,7 +156,7 @@ footer > div.about-us {
     letter-spacing: -0.001em;
     margin-bottom: 0;
 }
-
+ 
 .the-mountains-are-waiting-for-you-wrapper > h2 {
     width: 1130px;
     margin-left: auto;
@@ -103,6 +172,7 @@ footer > div.about-us {
     font-style: italic;
     font-weight: lighter;
     padding-left: 30px;
+    letter-spacing: 0.9px;
 }
 
 .choose {
@@ -131,6 +201,68 @@ footer > div.about-us {
     font-family: TitlingGothicFB, serif;
     letter-spacing: 0.001em;
 }
+
+.main-tutorial-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tutorial-slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 390px;
+    padding-right: 49px;
+}
+
+.tutorial-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-slider i {
+    color: #5A1015;
+}
+
+
+.icon-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14.3px;
+    margin-left: -11px;
+}
+
+.tutorial-slider button {
+    border: none;
+    background: none;
+    height: 20px;
+    width: 16px;
+    margin-left: -5px;
+}
+
+.tutorial-slider h3 {
+    font-size: 26px;
+    letter-spacing: 0.27px;
+    color: #5A1015;
+}
+
+.tutorial-slider button i {
+    padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+.tutorial-slider button i:hover {
+    color: #c53237;
+}
+
 
 .about-us-wrapper {
     height: 287px;
@@ -193,13 +325,13 @@ footer > div.about-us {
 }
 
 .promotion-in-the-tent {
-    background: url("images/promotion-in-the-tent.png");
+    background: url("images/promotion-in-the-tent.png") no-repeat;
     width: inherit;
     height: inherit;
 }
 
 .starter-package {
-    background: url("images/starter-package.png");
+    background: url("images/starter-package.png") no-repeat;
     width: inherit;
     height: inherit;
 }
@@ -246,10 +378,178 @@ li > a {
     text-align: center;
 }
 
+.images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 148px;
+    margin-left: -47px;
+    margin-top: 68px;
+}
+
+.store-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1644px;             /* this needs to be adjusted */
+}
+
 .store {
-    /*height: 1644px;*/
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    width: 175px;
+    height: 1185px;
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-slider-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    padding: 0 3px 96px 0;
+}
+
+
+.store-rotated-text h2 {
+    font-family: TitlingGothicFB, serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 70px;
+
+    display: flex;
+    align-items: flex-end;
+    height: 103.25%;
+}
+
+
+.sidebar-slider-icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34.5px;
+}
+
+
+
+
+.promotion-in-the-tent {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-top: 55px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.promotion-in-the-tent p:last-child {
+    font-family: Verveine, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 0 65px 0 52px;
+    margin-top: -10px;
+}
+
+.starter-package {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #FFF;
+    height: 424px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.starter-package p:first-child {
+    margin-bottom: 31px;
+    padding-left: 46px;
+}
+
+.starter-package p:last-child {
+    font-family: Verveine, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 71px;
+    padding-left: 17px;
+    margin-bottom: 3px;
 }
 
 .choose-your-tour {
     /*height: 1947px;*/
+}
+
+.icons-wrapper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.icons-wrapper-footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 38px;
+
+    background-color: black;
+}  
+
+
+.icons-wrapper-footer .fb {
+    font-size: 60px;
+
+    background-color: #fff;
+}
+
+
+.icons-wrapper-footer a {
+    text-decoration: none;
+
+}
+
+
+footer{
+    background-color: #FFF;
+}
+
+  
+footer h2 {
+    font-weight: 700;
+    font-family: TitlingGothicFB, serif;
+    font-size: 65px;
+    letter-spacing: -0.5px;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    line-height: 36px;
+    padding-left: 1px;
+
+    margin-top: -43px;
 }
