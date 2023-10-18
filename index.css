@@ -314,13 +314,13 @@ footer > div.about-us {
 }
 
 .promotion-in-the-tent {
-    background: url("images/promotion-in-the-tent.png");
+    background: url("images/promotion-in-the-tent.png") no-repeat;
     width: inherit;
     height: inherit;
 }
 
 .starter-package {
-    background: url("images/starter-package.png");
+    background: url("images/starter-package.png") no-repeat;
     width: inherit;
     height: inherit;
 }
@@ -367,8 +367,118 @@ li > a {
     text-align: center;
 }
 
+.images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 148px;
+    margin-left: -47px;
+    margin-top: 68px;
+}
+
+.store-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1644px;             /* this needs to be adjusted */
+}
+
 .store {
-    /*height: 1644px;*/
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    width: 175px;
+    height: 1185px;
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-slider-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    padding: 0 3px 96px 0;
+}
+
+
+.store-rotated-text h2 {
+    font-family: TitlingGothicFB, serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 70px;
+
+    display: flex;
+    align-items: flex-end;
+    height: 103.25%;
+}
+
+
+.sidebar-slider-icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34.5px;
+}
+
+
+
+
+.promotion-in-the-tent {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-top: 55px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.promotion-in-the-tent p:last-child {
+    font-family: Verveine, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 0 65px 0 52px;
+    margin-top: -10px;
+}
+
+.starter-package {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #FFF;
+    height: 424px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.starter-package p:first-child {
+    margin-bottom: 31px;
+    padding-left: 46px;
+}
+
+.starter-package p:last-child {
+    font-family: Verveine, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 71px;
+    padding-left: 17px;
+    margin-bottom: 3px;
 }
 
 .choose-your-tour {
