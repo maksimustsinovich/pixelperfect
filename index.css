@@ -125,10 +125,21 @@ main div.about-us {
     margin: 0;
 }
 
-footer > div.about-us {
-    background: white;
+footer > div {
     height: 820px;
 }
+
+.about-us-footer {
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    height: 84.8%;
+}
+ 
 
 .the-mountains-are-waiting-for-you-wrapper {
     width: 1288px;
@@ -483,4 +494,62 @@ li > a {
 
 .choose-your-tour {
     /*height: 1947px;*/
+}
+
+.icons-wrapper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.icons-wrapper-footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 38px;
+
+    background-color: black;
+}  
+
+
+.icons-wrapper-footer .fb {
+    font-size: 60px;
+
+    background-color: #fff;
+}
+
+
+.icons-wrapper-footer a {
+    text-decoration: none;
+
+}
+
+
+footer{
+    background-color: #FFF;
+}
+
+  
+footer h2 {
+    font-weight: 700;
+    font-family: TitlingGothicFB, serif;
+    font-size: 65px;
+    letter-spacing: -0.5px;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    line-height: 36px;
+    padding-left: 1px;
+
+    margin-top: -43px;
 }
