@@ -49,24 +49,54 @@ header {
     align-items: center;
 }
 
-.slider-header div {
+.slider-header > div {
     display: flex;
     align-items: center;
     gap: 50px;
-    width: 1200px;
+    width: 897px;
 }
 
-.slider-header div p {
+.slider-header i {
+    padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+.slider-header button:last-child {
+    margin-left: -28px;
+}
+
+.slider-header i:hover {
+    color: #F4BF86;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.numbers p {
     font-size: 31px;
     font-weight: 700;
 }
 
-.slider-header > div p:nth-child(1) {
+.numbers p:nth-child(3) {
     padding-left: 5px;
-    color: red;
 }
 
-.slider-header .highlighted-number {
+.slider-header button {
+    border: none;
+    background: none;
+    height: 20px;
+    width: 16px;
+}
+
+ 
+.numbers .highlighted-number {
     font-size: 114px;
     padding-bottom: 25px;
 }
