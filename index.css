@@ -43,6 +43,34 @@ header {
     height: 665px;
 }
 
+.slider-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-header div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 1200px;
+}
+
+.slider-header div p {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.slider-header > div p:nth-child(1) {
+    padding-left: 5px;
+    color: red;
+}
+
+.slider-header .highlighted-number {
+    font-size: 114px;
+    padding-bottom: 25px;
+}
+
 main div.about-us {
     background-image: url("images/about-us-background.png");
     background-repeat: no-repeat;
