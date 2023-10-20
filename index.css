@@ -1,6 +1,36 @@
-@import url(https://db.onlinewebfonts.com/c/c4b7e87fa30bf1f1c30cae7cc1b25973?family=Soleto);
-@import url(https://db.onlinewebfonts.com/c/fc3276cc001ced55ee90504acaca1ff4?family=Verveine);
-@import url(https://db.onlinewebfonts.com/c/213f9bc26e06fff54c57869796b24ab5?family=TitlingGothicFBCond-Bold);
+/*@import url(https://db.onlinewebfonts.com/c/c4b7e87fa30bf1f1c30cae7cc1b25973?family=Soleto);*/
+/*@import url(https://db.onlinewebfonts.com/c/fc3276cc001ced55ee90504acaca1ff4?family=Verveine);*/
+/*@import url(https://db.onlinewebfonts.com/c/213f9bc26e06fff54c57869796b24ab5?family=TitlingGothicFBCond-Bold);*/
+
+@font-face {
+    font-family: "TitlingGothicFBCond-Bold";
+    src: url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.eot");
+    src: url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.svg#TitlingGothicFBCond-Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Verveine";
+    src: url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.eot");
+    src: url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.svg#Verveine")format("svg");
+}
+
+@font-face {
+    font-family: "Soleto";
+    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot");
+    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.svg#Soleto")format("svg");
+}
 
 /*@font-face {*/
 /*    font-family: Soleto;*/
