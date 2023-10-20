@@ -1,7 +1,3 @@
-/*@import url(https://db.onlinewebfonts.com/c/c4b7e87fa30bf1f1c30cae7cc1b25973?family=Soleto);*/
-/*@import url(https://db.onlinewebfonts.com/c/fc3276cc001ced55ee90504acaca1ff4?family=Verveine);*/
-/*@import url(https://db.onlinewebfonts.com/c/213f9bc26e06fff54c57869796b24ab5?family=TitlingGothicFBCond-Bold);*/
-
 @font-face {
     font-family: "TitlingGothicFBCond-Bold";
     src: url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.eot");
@@ -31,34 +27,6 @@
     url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.svg#Soleto")format("svg");
 }
-
-/*@font-face {*/
-/*    font-family: Soleto;*/
-/*    src: url("../fonts/Soleto-Regular.ttf");*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: Soleto;*/
-/*    src: url("./../fonts/Soleto-Bold.ttf");*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: TitlingGothicFB;*/
-/*    src: url("../fonts/TitlingGothicFB Cond Bold.otf");*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: Verveine;*/
-/*    src: url("../fonts/VerveineRegular.TTF");*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*}*/
 
 .choose-your-tour-helper > p {
     text-align: center;
