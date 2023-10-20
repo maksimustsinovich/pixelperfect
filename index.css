@@ -45,7 +45,7 @@
 body {
     background-size: cover;
     background: url("images/background.png") no-repeat center;
-    font-family: Soleto, serif;
+    font-family: "Soleto", serif;
     font-size: 30px;
     margin: 0 auto;
     width: 1440px;
@@ -135,7 +135,7 @@ main div.about-us {
 }
 
 .about-us h2 {
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     font-size: 64px;
     margin: 0;
 }
@@ -182,7 +182,7 @@ footer > div {
 
 .waiting-for-you {
     font-size: 81px;
-    font-family: Verveine, serif;
+    font-family: "Verveine", serif;
     color: rgb(78, 23, 27);
     font-style: italic;
     font-weight: lighter;
@@ -192,13 +192,13 @@ footer > div {
 
 .choose {
     font-size: 64px;
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     letter-spacing: 0.001em;
 }
 
 .your-tour {
     font-size: 81px;
-    font-family: Verveine, serif;
+    font-family: "Verveine", serif;
     color: rgb(30, 90, 124);
     font-style: italic;
     font-weight: lighter;
@@ -223,7 +223,7 @@ footer > div {
 
 .the-mountains-are {
     font-size: 64px;
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     letter-spacing: 0.001em;
 }
 
@@ -444,7 +444,7 @@ li > a {
 .the-mountains-are-waiting-for-you > h2 {
     margin-top: 108px;
     margin-bottom: 0;
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     font-size: 64px;
     text-align: center;
 }
@@ -494,7 +494,7 @@ li > a {
 
 
 .store-rotated-text h2 {
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 250px;
@@ -531,7 +531,7 @@ li > a {
 }
 
 .promotion-in-the-tent p:last-child {
-    font-family: Verveine, serif;
+    font-family: "Verveine", serif;
     font-style: italic;
     font-weight: 500;
     font-size: 80px;
@@ -557,7 +557,7 @@ li > a {
 }
 
 .starter-package p:last-child {
-    font-family: Verveine, serif;
+    font-family: "Verveine", serif;
     font-style: italic;
     font-weight: 500;
     font-size: 71px;
@@ -612,7 +612,7 @@ footer{
   
 footer h2 {
     font-weight: 700;
-    font-family: TitlingGothicFBCond-Bold, serif;
+    font-family: "TitlingGothicFBCond-Bold", serif;
     font-size: 65px;
     letter-spacing: -0.5px;
 }
