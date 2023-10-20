@@ -26,6 +26,18 @@
     font-style: normal;
 }
 
+.choose-your-tour-helper > p {
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 166px;
+    line-height: 37px;
+    letter-spacing: -0.001em;
+}
+
+.choose-your-tour-helper {
+    margin-right: 56px;
+}
+
 body {
     background-size: cover;
     background: url("images/background.png") no-repeat center;
@@ -94,7 +106,6 @@ header {
     height: 20px;
     width: 16px;
 }
-
  
 .numbers .highlighted-number {
     font-size: 114px;
@@ -136,7 +147,7 @@ footer > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 73px;
+    gap: 80px;
     height: 84.8%;
 }
  
@@ -190,10 +201,20 @@ footer > div {
     padding-left: 30px;
 }
 
+.choose-your-tour-article {
+    margin-top: 100px;
+    padding-top: 75px;
+}
+
+.choose-your-tour-wrapper {
+}
+
 .choose-your-tour h2 {
     width: 575px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .the-mountains-are {
@@ -263,6 +284,9 @@ footer > div {
     color: #c53237;
 }
 
+.sidebar-slider-icons button i:hover {
+    color: #c53237;
+}
 
 .about-us-wrapper {
     height: 287px;
@@ -296,9 +320,10 @@ footer > div {
 .tour-offers {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 77px;
+    row-gap: 75px;
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 5px;
     height: 1335px;
     width: 1147px;
 }
@@ -311,12 +336,54 @@ footer > div {
     text-align: center;
 }
 
+.lake-in-the-forest > h3 {
+    margin-top: 37px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.lake-in-the-forest > p {
+    margin-top: 40px;
+}
+
+.lake-in-the-mountains > h3 {
+    margin-bottom: 0;
+    margin-top: 38px;
+    margin-left: -9px;
+}
+
+.lake-in-the-mountains > p {
+    margin-top: 45px;
+}
+
+.snowy-mountains > h3 {
+    margin-top: 39px;
+}
+
+.snowy-mountains > p {
+    margin-top: 68px;
+}
+
+.group-hiking > h3 {
+    margin-top: 33px;
+    margin-left: 31px;
+    margin-bottom: 0;
+}
+
+.group-hiking > p {
+    margin-top: 74px;
+}
+
 .tour-offers > .image-container > h3 {
     font-weight: bold;
+    font-size: 27px;
+    letter-spacing: -0.01em;
 }
 
 .tour-offers > .image-container > p {
-
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
 }
 
 .store .image-container {
@@ -382,7 +449,7 @@ li > a {
     display: flex;
     flex-direction: column;
     gap: 148px;
-    margin-left: -47px;
+    margin-left: -22px;
     margin-top: 68px;
 }
 
@@ -392,6 +459,8 @@ li > a {
     justify-content: center;
     align-items: center;
     height: 1644px;             /* this needs to be adjusted */
+    margin-top: 14px;
+    margin-bottom: -13px;
 }
 
 .store {
@@ -427,8 +496,8 @@ li > a {
     font-size: 250px;
     font-weight: 900;
     text-transform: uppercase;
-    line-height: 70px;
-
+    line-height: 45px;
+    margin-top: 24px;
     display: flex;
     align-items: flex-end;
     height: 103.25%;
