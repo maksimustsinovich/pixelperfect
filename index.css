@@ -621,20 +621,21 @@ footer{
     background-color: #FFF;
 }
 
-  
+
 footer h2 {
     font-weight: 700;
     font-family: "TitlingGothicFBCond-Bold", serif;
     font-size: 65px;
     letter-spacing: -0.5px;
+    margin-top: 43px;
+    margin-bottom: 77px;
 }
 
 footer p {
     text-align: center;
-    padding-bottom: 40px;
-    padding-top: 5px;
+    padding-bottom: 31px;
+    padding-top: 0px;
     line-height: 36px;
     padding-left: 1px;
-
-    margin-top: -43px;
+    margin-top: -64px;
 }
