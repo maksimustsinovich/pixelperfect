@@ -20,13 +20,27 @@
 
 @font-face {
     font-family: "Soleto";
-    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot");
-    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.svg#Soleto")format("svg");
+    font-style: normal;
+    font-weight: bold;
+    src: local('Soleto Trial Bold'), url('Soleto_Trial_Bd.woff') format('woff');
 }
+
+@font-face {
+    font-family: "Soleto";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Soleto Trial Regular'), url('Soleto_Trial_Rg.woff') format('woff');
+}
+
+/*@font-face {*/
+/*    font-family: "Soleto";*/
+/*    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot");*/
+/*    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot?#iefix")format("embedded-opentype"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff2")format("woff2"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff")format("woff"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.ttf")format("truetype"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.svg#Soleto")format("svg");*/
+/*}*/
 
 .choose-your-tour-helper > p {
     text-align: center;
