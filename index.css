@@ -199,7 +199,7 @@ footer > div {
     font-style: italic;
     font-weight: lighter;
     padding-left: 30px;
-    letter-spacing: 0.9px;
+    letter-spacing: -1.1px;
 }
 
 .choose {
