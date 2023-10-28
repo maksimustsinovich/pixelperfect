@@ -1,0 +1,641 @@
+@font-face {
+    font-family: "TitlingGothicFBCond-Bold";
+    src: url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.eot");
+    src: url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/213f9bc26e06fff54c57869796b24ab5.svg#TitlingGothicFBCond-Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Verveine";
+    src: url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.eot");
+    src: url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fc3276cc001ced55ee90504acaca1ff4.svg#Verveine")format("svg");
+}
+
+@font-face {
+    font-family: "Soleto";
+    font-style: normal;
+    font-weight: bold;
+    src: local('Soleto Trial Bold'), url('Soleto_Trial_Bd.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Soleto";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Soleto Trial Regular'), url('Soleto_Trial_Rg.woff') format('woff');
+}
+
+/*@font-face {*/
+/*    font-family: "Soleto";*/
+/*    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot");*/
+/*    src: url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.eot?#iefix")format("embedded-opentype"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff2")format("woff2"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.woff")format("woff"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.ttf")format("truetype"),*/
+/*    url("https://db.onlinewebfonts.com/t/c4b7e87fa30bf1f1c30cae7cc1b25973.svg#Soleto")format("svg");*/
+/*}*/
+
+.choose-your-tour-helper > p {
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 166px;
+    line-height: 37px;
+    letter-spacing: -0.001em;
+}
+
+.choose-your-tour-helper {
+    margin-right: 56px;
+}
+
+body {
+    background-size: cover;
+    background: url("images/background.png") no-repeat center;
+    font-family: "Soleto", serif;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header {
+    background-image: url("images/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 23px;
+    height: 665px;
+}
+
+.slider-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-header > div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 897px;
+}
+
+.slider-header i {
+    padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+.slider-header button:last-child {
+    margin-left: -28px;
+}
+
+.slider-header i:hover {
+    color: #F4BF86;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.numbers p {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.numbers p:nth-child(3) {
+    padding-left: 5px;
+}
+
+.slider-header button {
+    border: none;
+    background: none;
+    height: 20px;
+    width: 16px;
+}
+ 
+.numbers .highlighted-number {
+    font-size: 114px;
+    padding-bottom: 25px;
+}
+
+main div.about-us {
+    background-image: url("images/about-us-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+    display: flex;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 30px;
+    letter-spacing: -0.001em;
+    margin: 0;
+}
+
+.about-us h2 {
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    font-size: 64px;
+    margin: 0;
+}
+
+footer > div {
+    height: 820px;
+}
+
+.about-us-footer {
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 84.8%;
+}
+ 
+
+.the-mountains-are-waiting-for-you-wrapper {
+    width: 1288px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+}
+
+.the-mountains-are-waiting-for-you-wrapper  p {
+    margin-top: 42px;
+    margin-left: 8px;
+    font-size: 25px;
+    line-height: 1.22;
+    letter-spacing: -0.001em;
+    margin-bottom: 0;
+}
+ 
+.the-mountains-are-waiting-for-you-wrapper > h2 {
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-bottom: 51px;
+}
+
+.waiting-for-you {
+    font-size: 81px;
+    font-family: "Verveine", serif;
+    color: rgb(78, 23, 27);
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 30px;
+    letter-spacing: 0.9px;
+}
+
+.choose {
+    font-size: 64px;
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    letter-spacing: 0.001em;
+}
+
+.your-tour {
+    font-size: 81px;
+    font-family: "Verveine", serif;
+    color: rgb(30, 90, 124);
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.choose-your-tour-article {
+    margin-top: 100px;
+    padding-top: 72px;
+}
+
+.choose-your-tour-wrapper {
+}
+
+.choose-your-tour h2 {
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.the-mountains-are {
+    font-size: 64px;
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    letter-spacing: 0.001em;
+}
+
+.main-tutorial-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tutorial-slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 390px;
+    padding-right: 49px;
+}
+
+.tutorial-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-slider i {
+    color: #5A1015;
+}
+
+
+.icon-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14.3px;
+    margin-left: -11px;
+}
+
+.tutorial-slider button {
+    border: none;
+    background: none;
+    height: 20px;
+    width: 16px;
+    margin-left: -5px;
+}
+
+.tutorial-slider h3 {
+    font-size: 26px;
+    letter-spacing: 0.27px;
+    color: #5A1015;
+}
+
+.tutorial-slider button i {
+    padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5em;
+    padding-top: 8px;
+}
+
+.tutorial-slider button i:hover {
+    color: #c53237;
+}
+
+.sidebar-slider-icons button i:hover {
+    color: #c53237;
+}
+
+.about-us-wrapper {
+    height: 287px;
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.2;
+    row-gap: 100px;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 43px;
+}
+
+.the-mountains-are-waiting-for-you {
+    height: 875px;
+}
+
+.about-us-article {
+    margin-top: 0;
+}
+
+.the-mountains-are-waiting-for-you .image-container {
+    height: 382px;
+    width: 700px;
+    border: white 28px solid;
+    margin-bottom: 0;
+}
+
+.tour-offers {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 75px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5px;
+    height: 1335px;
+    width: 1147px;
+}
+
+.tour-offers > .image-container {
+    background: white;
+    width: 475px;
+    height: 630px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.lake-in-the-forest > h3 {
+    margin-top: 37px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.lake-in-the-forest > p {
+    margin-top: 40px;
+}
+
+.lake-in-the-mountains > h3 {
+    margin-bottom: 0;
+    margin-top: 38px;
+    margin-left: -9px;
+}
+
+.lake-in-the-mountains > p {
+    margin-top: 45px;
+}
+
+.snowy-mountains > h3 {
+    margin-top: 39px;
+}
+
+.snowy-mountains > p {
+    margin-top: 68px;
+}
+
+.group-hiking > h3 {
+    margin-top: 33px;
+    margin-left: 31px;
+    margin-bottom: 0;
+}
+
+.group-hiking > p {
+    margin-top: 74px;
+}
+
+.tour-offers > .image-container > h3 {
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: -0.01em;
+}
+
+.tour-offers > .image-container > p {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+}
+
+.store .image-container {
+    width: 719px;
+    height: 495px;
+}
+
+.promotion-in-the-tent {
+    background: url("images/promotion-in-the-tent.png") no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.starter-package {
+    background: url("images/starter-package.png") no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.navigation-container {
+    padding-left: 78px;
+    padding-top: 86px;
+    height: 69px;
+    display: flex;
+}
+
+nav {
+    padding-left: 48px;
+    margin-top: -6px;
+    letter-spacing: 0.001em;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+li > a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.the-mountains-are-waiting-for-you > h2 {
+    margin-top: 108px;
+    margin-bottom: 0;
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+.images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 148px;
+    margin-left: -22px;
+    margin-top: 68px;
+}
+
+.store-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1644px;             /* this needs to be adjusted */
+    margin-top: 14px;
+    margin-bottom: -13px;
+}
+
+.store {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    width: 175px;
+    height: 1185px;
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-slider-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    padding: 0 3px 96px 0;
+}
+
+
+.store-rotated-text h2 {
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    height: 103.25%;
+}
+
+
+.sidebar-slider-icons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34.5px;
+}
+
+
+
+
+.promotion-in-the-tent {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-top: 55px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.promotion-in-the-tent p:last-child {
+    font-family: "Verveine", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 0 65px 0 52px;
+    margin-top: -10px;
+}
+
+.starter-package {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #FFF;
+    height: 424px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.starter-package p:first-child {
+    margin-bottom: 31px;
+    padding-left: 46px;
+}
+
+.starter-package p:last-child {
+    font-family: "Verveine", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 71px;
+    padding-left: 17px;
+    margin-bottom: 3px;
+}
+
+.choose-your-tour {
+    /*height: 1947px;*/
+}
+
+.icons-wrapper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.icons-wrapper-footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 38px;
+
+    background-color: black;
+}  
+
+
+.icons-wrapper-footer .fb {
+    font-size: 60px;
+
+    background-color: #fff;
+}
+
+
+.icons-wrapper-footer a {
+    text-decoration: none;
+
+}
+
+
+footer{
+    background-color: #FFF;
+}
+
+
+footer h2 {
+    font-weight: 700;
+    font-family: "TitlingGothicFBCond-Bold", serif;
+    font-size: 65px;
+    letter-spacing: -0.5px;
+    margin-top: 43px;
+    margin-bottom: 77px;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 0px;
+    line-height: 36px;
+    padding-left: 1px;
+    margin-top: -64px;
+}
